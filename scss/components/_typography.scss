@@ -1,0 +1,19 @@
+.module {
+  h1 {
+    position: relative;
+    z-index: 1;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+  }
+  p {
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    padding: 0 8px;
+    text-align: center;
+  }
+}

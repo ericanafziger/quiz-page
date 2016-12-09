@@ -10,6 +10,7 @@
 }
 .module {
   @include span-columns(3 of 12);
-  background: lightgrey;
   height: 400px;
+  padding: 15px;
+  position: relative;
 }

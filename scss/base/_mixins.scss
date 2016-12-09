@@ -1,0 +1,17 @@
+@mixin background-img($class, $img, $color){
+  .#{$class} {
+    background: $color;
+  }
+  .#{$class}:after {
+    content: "";
+    background: url(../img/#{$img}.jpg);
+    background-size: cover;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-position: top center;
+  }
+}
