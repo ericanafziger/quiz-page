@@ -23,6 +23,8 @@
 // buton styling
 
 %button {
+  position: relative;
+  z-index: 2;
   background: $button-color;
   border: 1px solid $light-text;
   outline: none;

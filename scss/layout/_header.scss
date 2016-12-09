@@ -18,7 +18,7 @@
       width: 100%;
       &:hover {
         cursor: pointer;
-        background: darken($button-color, 80%);
+        background: $dark-text;
       }
       &:first-child {
         background: $dark-text;

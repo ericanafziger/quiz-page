@@ -12,9 +12,6 @@
   color: $dark-text;
 }
 
-.answer {
-  position: relative;
-  z-index: 2;
+.answer, .hide-answer {
   @extend %button;
-  @extend %center-positioned;
 }
