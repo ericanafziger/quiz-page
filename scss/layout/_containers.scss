@@ -7,14 +7,12 @@ body {
   background: #222;
 }
 header {
-  @include outer-container(1300px);
-  padding: 30px 10px 0px 10px;
+  @extend %container;
   background: rgb(15, 26, 27);
 }
 .wrap {
-  @include outer-container(1300px);
+  @extend %container;
   border-top: 1px solid lightgrey;
-  padding: 30px 10px 0px 10px;
 }
 .row {
   @include span-columns(12);
@@ -28,6 +26,8 @@ header {
 }
 .module {
   @include span-columns(3 of 12);
+  overflow: auto;
+  border-radius: 10px;
   height: 400px;
   padding: 15px;
   position: relative;
@@ -38,5 +38,6 @@ header {
   @media screen and #{$md-break} {
     @include span-columns(12 of 12);
     margin: 0;
+    border-radius: 0px;
   }
 }

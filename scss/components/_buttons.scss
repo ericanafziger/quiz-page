@@ -1,3 +1,17 @@
+#{$all-buttons} {
+  background-color: $button-color;
+  border-radius: 50px;
+}
+#{$all-buttons-focus},
+#{$all-buttons-hover} {
+  background-color: darken($button-color, 90%);
+  color: lighten($dark-text, 90%);
+}
+#{$all-buttons-active} {
+  background: $light-text;
+  color: $dark-text;
+}
+
 .more {
   position: relative;
   z-index: 2;

@@ -1,3 +1,9 @@
+// container dimensions
+%container {
+  @include outer-container(1300px);
+  padding: 30px 10px 0px 10px;
+}
+
 // center postioning
 %center {
   display: block;
@@ -9,18 +15,22 @@
   left: 50%;
   transform: translate(-50%, 0);
 }
+%center-positionedY {
+  top: 50%;
+  transform: translate(0, -50%);
+}
 
 // buton styling
 
 %button {
-  background: transparentize(white, 0.5);;
-  border: 1px solid white;
+  background: $button-color;
+  border: 1px solid $light-text;
   outline: none;
   width: 130px;
   height: 40px;
   font-size: 1em;
   font-family: 'Cormorant Garamond', serif;
-  color: #444;
+  color: $dark-text;
   font-weight: 700;
   text-transform: uppercase;
   @extend %center-positioned;

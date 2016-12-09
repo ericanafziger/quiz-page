@@ -4,6 +4,7 @@
   }
   .#{$name}:after {
     content: "";
+    border-radius: 10px;
     background: url(../img/#{$name}.jpg);
     background-size: cover;
     opacity: 0.3;
@@ -13,5 +14,8 @@
     right: 0;
     position: absolute;
     background-position: top left;
+    @media screen and #{$md-break} {
+      border-radius: 0px;
+    }
   }
 }
