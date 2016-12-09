@@ -1,0 +1,30 @@
+// center postioning
+%center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+%center-positioned {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+// buton styling
+
+%button {
+  background: transparentize(white, 0.5);;
+  border: 1px solid white;
+  outline: none;
+  width: 130px;
+  height: 40px;
+  font-size: 1em;
+  font-family: 'Cormorant Garamond', serif;
+  color: #444;
+  font-weight: 700;
+  text-transform: uppercase;
+  @extend %center-positioned;
+  &:hover {
+    cursor: pointer;
+  }
+}

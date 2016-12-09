@@ -1,0 +1,6 @@
+.more {
+  position: relative;
+  z-index: 2;
+  @extend %button;
+  @extend %center-positioned;
+}

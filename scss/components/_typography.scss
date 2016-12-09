@@ -2,11 +2,16 @@
   h1 {
     position: relative;
     z-index: 1;
+    margin: 15px 0;
     font-size: 1.2em;
     color: white;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
     text-transform: uppercase;
+    &:hover {
+      cursor: pointer;
+      @include animation(scale 1.0s ease-in);
+    }
   }
   p {
     position: relative;
@@ -14,6 +19,7 @@
     color: white;
     font-family: 'PT Sans', sans-serif;
     padding: 0 8px;
+    margin: 15px 0;
     text-align: center;
   }
 }

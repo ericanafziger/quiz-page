@@ -1,6 +1,7 @@
 img {
   max-width: 100%;
 }
+// =============MODULE IMAGE STYLING=============
 .module {
   img {
     position: relative;
@@ -13,9 +14,28 @@ img {
     height: 150px;
     object-fit: cover;
     object-position: top center;
+    @media screen and #{$lrg-break} {
+      width: 70%;
+      height: 200px;
+    }
   }
 }
-@include background-img(melisandre, melisandre, red);
-@include background-img(sansa, sansa, lightblue);
-@include background-img(arya, arya, darkslategray);
-@include background-img(jon, jon-snow, grey);
+@include background-img(melisandre, $melisandre);
+@include background-img(sansa, $sansa);
+@include background-img(arya, $arya);
+@include background-img(jon, $jon);
+@include background-img(stannis, $stannis);
+@include background-img(cersei, $cersei);
+@include background-img(jaime, $jaime);
+@include background-img(tyrion, $tyrion);
+@include background-img(daenerys, $daenerys);
+@include background-img(jorah, $jorah);
+@include background-img(sandor, $sandor);
+@include background-img(petyr, $petyr);
+
+// =============HEADER IMAGE STYLING=============
+header {
+  img {
+    width: 400px;
+  }
+}
