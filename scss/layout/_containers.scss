@@ -1,0 +1,15 @@
+.wrap {
+  @include outer-container(1200px);
+  background: teal;
+  height: 500px;
+}
+.row {
+  @include span-columns(12);
+  background: papayawhip;
+  height: 500px;
+}
+.module {
+  @include span-columns(3 of 12);
+  background: lightgrey;
+  height: 400px;
+}
