@@ -2,20 +2,45 @@
 $dark-text: #444;
 $light-text: rgb(242, 242, 234);
 $button-color: transparentize(white, 0.5);
+$red: rgb(120, 20, 20);
+$blue-grey: darkslategray;
+$light-blue: lightblue;
+$grey: grey;
+$blue: rgb(24, 62, 70);
+$gold: rgb(102, 92, 42);
+$maroon: rgb(65, 25, 26);
+$purple: rgb(38, 21, 66);
+$sand: rgb(135, 133, 111);
+$green: rgb(2, 36, 21);
+$darkgrey: rgb(47, 53, 56);
+$midnight: rgb(12, 19, 60);
 
 // colors based on character names
-$melisandre: firebrick;
-$arya: darkslategray;
-$sansa: lightblue;
-$jon: grey;
-$stannis: rgb(24, 62, 70);
-$cersei: darkgoldenrod;
-$jaime: rgb(65, 25, 26);
-$tyrion: rgb(38, 21, 66);
-$daenerys: rgb(135, 133, 111);
-$jorah: rgb(6, 48, 31);
-$sandor: rgb(47, 53, 56);
-$petyr: rgb(12, 19, 60);
+$melisandre: $red;
+$arya: $blue-grey;
+$sansa: $light-blue;
+$jon: $grey;
+$stannis: $blue;
+$cersei: $gold;
+$jaime: $maroon;
+$tyrion: $purple;
+$daenerys: $sand;
+$jorah: $green;
+$sandor: $darkgrey;
+$petyr:  $midnight;
+
+$aragorn: $blue-grey;
+$gimli: $purple;
+$arwen: $light-blue;
+$legolas: $green;
+$gandalf: $grey;
+$frodo: $darkgrey;
+$gollum: $sand;
+$eowyn: $blue;
+$sam: $maroon;
+$boromir: $gold;
+$merry: $red;
+$pippin: $midnight;
 
 // media queries
 $lrg-break: '(max-width: 1100px)';

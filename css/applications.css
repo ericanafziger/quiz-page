@@ -106,7 +106,7 @@ img {
       height: 200px; } }
 
 .melisandre {
-  background: firebrick; }
+  background: #781414; }
 
 .melisandre:after {
   content: "";
@@ -201,7 +201,7 @@ img {
       border-radius: 0px; } }
 
 .cersei {
-  background: darkgoldenrod; }
+  background: #665c2a; }
 
 .cersei:after {
   content: "";
@@ -277,7 +277,7 @@ img {
       border-radius: 0px; } }
 
 .jorah {
-  background: #06301f; }
+  background: #022415; }
 
 .jorah:after {
   content: "";
@@ -334,7 +334,7 @@ img {
       border-radius: 0px; } }
 
 .aragorn {
-  background: #183e46; }
+  background: darkslategray; }
 
 .aragorn:after {
   content: "";
@@ -353,7 +353,7 @@ img {
       border-radius: 0px; } }
 
 .gimli {
-  background: grey; }
+  background: #261542; }
 
 .gimli:after {
   content: "";
@@ -372,7 +372,7 @@ img {
       border-radius: 0px; } }
 
 .arwen {
-  background: #41191a; }
+  background: lightblue; }
 
 .arwen:after {
   content: "";
@@ -391,7 +391,7 @@ img {
       border-radius: 0px; } }
 
 .legolas {
-  background: #06301f; }
+  background: #022415; }
 
 .legolas:after {
   content: "";
@@ -410,7 +410,7 @@ img {
       border-radius: 0px; } }
 
 .gandalf {
-  background: #87856f; }
+  background: grey; }
 
 .gandalf:after {
   content: "";
@@ -429,7 +429,7 @@ img {
       border-radius: 0px; } }
 
 .frodo {
-  background: #06301f; }
+  background: #2f3538; }
 
 .frodo:after {
   content: "";
@@ -448,7 +448,7 @@ img {
       border-radius: 0px; } }
 
 .gollum {
-  background: #2f3538; }
+  background: #87856f; }
 
 .gollum:after {
   content: "";
@@ -467,7 +467,7 @@ img {
       border-radius: 0px; } }
 
 .eowyn {
-  background: #0c133c; }
+  background: #183e46; }
 
 .eowyn:after {
   content: "";
@@ -486,7 +486,7 @@ img {
       border-radius: 0px; } }
 
 .sam {
-  background: lightblue; }
+  background: #41191a; }
 
 .sam:after {
   content: "";
@@ -505,7 +505,7 @@ img {
       border-radius: 0px; } }
 
 .boromir {
-  background: #41191a; }
+  background: #665c2a; }
 
 .boromir:after {
   content: "";
@@ -524,7 +524,7 @@ img {
       border-radius: 0px; } }
 
 .merry {
-  background: darkslategray; }
+  background: #781414; }
 
 .merry:after {
   content: "";
@@ -543,7 +543,7 @@ img {
       border-radius: 0px; } }
 
 .pippin {
-  background: grey; }
+  background: #0c133c; }
 
 .pippin:after {
   content: "";
