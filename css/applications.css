@@ -39,22 +39,21 @@ header, .wrap, .links {
   .answer:hover, .hide-answer:hover {
     cursor: pointer; }
 
-.links {
-  font-weight: 700; }
-  .links i {
-    margin-left: -60px;
-    padding-left: 5px; }
-  .links a {
-    text-decoration: none;
-    color: #444; }
-  .links li {
-    list-style: none;
-    color: #444;
-    font-family: 'Cormorant Garamond', serif; }
-    .links li:hover > a {
-      color: #f2f2ea; }
-    .links li:first-child {
-      font-weight: 400; }
+.links i {
+  margin-left: -60px;
+  padding-left: 5px; }
+.links a {
+  text-decoration: none;
+  color: #444; }
+.links li {
+  font-weight: 700;
+  list-style: none;
+  color: #444;
+  font-family: 'Cormorant Garamond', serif; }
+  .links li:hover > a {
+    color: #f2f2ea; }
+  .links li:first-child {
+    font-weight: 300; }
 
 .module h1 {
   position: relative;
