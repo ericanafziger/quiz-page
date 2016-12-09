@@ -1,1 +1,33 @@
-
+.links {
+  @extend %container;
+  padding: 0px;
+  margin-bottom: 25px;
+  @media screen and #{$lrg-break} {
+    display: none;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    background: $light-text;
+    height: 50px;
+    li {
+      justify-content: space-around;
+      display: flex;
+      align-items: center;
+      height: 50px;
+      width: 100%;
+      &:hover {
+        cursor: pointer;
+        background: darken($button-color, 80%);
+      }
+      &:first-child {
+        background: $dark-text;
+        color: $light-text;
+      }
+      &:first-child:hover {
+        cursor: default;
+        background: $dark-text;
+      }
+    }
+  }
+}
