@@ -1,13 +1,23 @@
-a {
-  text-decoration: none;
-  color: $dark-text;
-}
-li {
-  list-style: none;
-  color: $dark-text;
-  font-family: 'Cormorant Garamond', serif;
-  &:hover > a {
-    color: $light-text;
+.links {
+  font-weight: 700;
+  i {
+    margin-left: -60px;
+    padding-left: 5px;
+  }
+  a {
+    text-decoration: none;
+    color: $dark-text;
+  }
+  li {
+    list-style: none;
+    color: $dark-text;
+    font-family: 'Cormorant Garamond', serif;
+    &:hover > a {
+      color: $light-text;
+    }
+    &:first-child {
+      font-weight: 400;
+    }
   }
 }
 .module {
