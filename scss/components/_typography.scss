@@ -26,7 +26,7 @@
     z-index: 1;
     margin: 15px 0;
     font-size: 1.2em;
-    color: white;
+    color: $light-text;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
     text-transform: uppercase;
@@ -37,7 +37,7 @@
   p {
     position: relative;
     z-index: 1;
-    color: white;
+    color: $light-text;
     font-family: 'PT Sans', sans-serif;
     padding: 0 8px;
     margin: 15px 0;
