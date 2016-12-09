@@ -1,21 +1,24 @@
-@mixin background-img($name, $color){
-  .#{$name} {
-    background: $color;
-  }
-  .#{$name}:after {
-    content: "";
-    border-radius: 10px;
-    background: url(../img/#{$name}.jpg);
-    background-size: cover;
-    opacity: 0.3;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    background-position: top left;
-    @media screen and #{$md-break} {
-      border-radius: 0px;
+// inserts background image and color for each module img background 
+@mixin background-img($characters...){
+  @each $name in $characters {
+    .#{nth($name, 1)} {
+      background: nth($name, 2);
+    }
+    .#{nth($name, 1)}:after {
+      content: "";
+      border-radius: 10px;
+      background: url(../img/#{nth($name, 1)}.jpg);
+      background-size: cover;
+      opacity: 0.3;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      background-position: top left;
+      @media screen and #{$md-break} {
+        border-radius: 0px;
+      }
     }
   }
 }

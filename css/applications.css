@@ -16,8 +16,8 @@ header, .wrap, .links {
 
 .module img {
   display: block;
-  margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  margin-right: auto; }
 
 .answer, .hide-answer {
   left: 50%;
@@ -333,6 +333,234 @@ img {
     .petyr:after {
       border-radius: 0px; } }
 
+.aragorn {
+  background: #183e46; }
+
+.aragorn:after {
+  content: "";
+  border-radius: 10px;
+  background: url(../img/aragorn.jpg);
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: top left; }
+  @media screen and (max-width: 650px) {
+    .aragorn:after {
+      border-radius: 0px; } }
+
+.gimli {
+  background: grey; }
+
+.gimli:after {
+  content: "";
+  border-radius: 10px;
+  background: url(../img/gimli.jpg);
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: top left; }
+  @media screen and (max-width: 650px) {
+    .gimli:after {
+      border-radius: 0px; } }
+
+.arwen {
+  background: #41191a; }
+
+.arwen:after {
+  content: "";
+  border-radius: 10px;
+  background: url(../img/arwen.jpg);
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: top left; }
+  @media screen and (max-width: 650px) {
+    .arwen:after {
+      border-radius: 0px; } }
+
+.legolas {
+  background: #06301f; }
+
+.legolas:after {
+  content: "";
+  border-radius: 10px;
+  background: url(../img/legolas.jpg);
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: top left; }
+  @media screen and (max-width: 650px) {
+    .legolas:after {
+      border-radius: 0px; } }
+
+.gandalf {
+  background: #87856f; }
+
+.gandalf:after {
+  content: "";
+  border-radius: 10px;
+  background: url(../img/gandalf.jpg);
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: top left; }
+  @media screen and (max-width: 650px) {
+    .gandalf:after {
+      border-radius: 0px; } }
+
+.frodo {
+  background: #06301f; }
+
+.frodo:after {
+  content: "";
+  border-radius: 10px;
+  background: url(../img/frodo.jpg);
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: top left; }
+  @media screen and (max-width: 650px) {
+    .frodo:after {
+      border-radius: 0px; } }
+
+.gollum {
+  background: #2f3538; }
+
+.gollum:after {
+  content: "";
+  border-radius: 10px;
+  background: url(../img/gollum.jpg);
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: top left; }
+  @media screen and (max-width: 650px) {
+    .gollum:after {
+      border-radius: 0px; } }
+
+.eowyn {
+  background: #0c133c; }
+
+.eowyn:after {
+  content: "";
+  border-radius: 10px;
+  background: url(../img/eowyn.jpg);
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: top left; }
+  @media screen and (max-width: 650px) {
+    .eowyn:after {
+      border-radius: 0px; } }
+
+.sam {
+  background: lightblue; }
+
+.sam:after {
+  content: "";
+  border-radius: 10px;
+  background: url(../img/sam.jpg);
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: top left; }
+  @media screen and (max-width: 650px) {
+    .sam:after {
+      border-radius: 0px; } }
+
+.boromir {
+  background: #41191a; }
+
+.boromir:after {
+  content: "";
+  border-radius: 10px;
+  background: url(../img/boromir.jpg);
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: top left; }
+  @media screen and (max-width: 650px) {
+    .boromir:after {
+      border-radius: 0px; } }
+
+.merry {
+  background: darkslategray; }
+
+.merry:after {
+  content: "";
+  border-radius: 10px;
+  background: url(../img/merry.jpg);
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: top left; }
+  @media screen and (max-width: 650px) {
+    .merry:after {
+      border-radius: 0px; } }
+
+.pippin {
+  background: grey; }
+
+.pippin:after {
+  content: "";
+  border-radius: 10px;
+  background: url(../img/pippin.jpg);
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: top left; }
+  @media screen and (max-width: 650px) {
+    .pippin:after {
+      border-radius: 0px; } }
+
 header img {
   width: 400px;
   opacity: 1;
@@ -364,7 +592,7 @@ header {
   background-image: linear-gradient(50deg,#101518 0%, #2f3a42 60%, #2f3a42 61%, #101518 100%); }
 
 .wrap {
-  border-top: 1px solid lightgrey; }
+  border-top: 1px solid #f2f2ea; }
 
 .row {
   float: left;
@@ -418,7 +646,7 @@ header {
 
 .hide .question, .hide .answer {
   display: none; }
-.hide div.show {
+.hide .show {
   display: block; }
 
 .links {

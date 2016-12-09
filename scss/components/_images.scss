@@ -18,18 +18,10 @@ img {
     }
   }
 }
-@include background-img(melisandre, $melisandre);
-@include background-img(sansa, $sansa);
-@include background-img(arya, $arya);
-@include background-img(jon, $jon);
-@include background-img(stannis, $stannis);
-@include background-img(cersei, $cersei);
-@include background-img(jaime, $jaime);
-@include background-img(tyrion, $tyrion);
-@include background-img(daenerys, $daenerys);
-@include background-img(jorah, $jorah);
-@include background-img(sandor, $sandor);
-@include background-img(petyr, $petyr);
+//GOT start
+@include background-img(melisandre $melisandre, sansa $sansa, arya $arya, jon $jon, stannis $stannis, cersei $cersei, jaime $jaime, tyrion $tyrion, daenerys $daenerys, jorah $jorah, sandor $sandor, petyr $petyr);
+//LOTR start
+@include background-img(aragorn $stannis, gimli $jon, arwen $jaime, legolas $jorah, gandalf $daenerys, frodo $jorah, gollum $sandor, eowyn $petyr, sam $sansa, boromir $jaime, merry $arya, pippin $jon);
 
 // =============HEADER IMAGE STYLING=============
 header {

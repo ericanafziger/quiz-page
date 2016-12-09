@@ -12,7 +12,7 @@ header {
 }
 .wrap {
   @extend %container;
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid $light-text;
 }
 .row {
   @include span-columns(12);
@@ -41,6 +41,7 @@ header {
     border-radius: 0px;
   }
 }
+// hides and shows answers
 .show {
   display: none;
 }
@@ -48,7 +49,7 @@ header {
   .question, .answer {
     display: none;
   }
-  div.show {
+  .show {
     display: block;
   }
 }
